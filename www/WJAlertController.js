@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'WJAlertController', 'coolMethod', [arg0]);
+exports.alerMethod = function (arg0,msg, success, error) {
+    exec(success, error, 'WJAlertController', 'alerMethod', [arg0,msg]);
 };
